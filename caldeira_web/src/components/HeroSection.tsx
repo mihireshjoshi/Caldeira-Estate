@@ -13,7 +13,7 @@ export default function HeroSection() {
                 // caldeira_web/src/images/landing_bg.png
                 style={{ backgroundImage: "url('/images/landing_bg.png')" }}
             >  
-                <div className="top-bar mx-20 flex flex-row justify-between">
+                <div className="top-bar sm:mx-4 lg:mx-20 flex flex-row justify-between">
                     <Image
                         src="/images/Caldeira_Estate.png"  // Path relative to the public folder
                         alt="Caldeira Estate"
@@ -35,7 +35,7 @@ export default function HeroSection() {
                     <h2 style={{ fontFamily: "'Boska', serif" }} className="text-8xl font-bold text-white">Stay, Savor, Sip</h2>
                     <p style={{ fontFamily: "'Manrope', sans-serif" }} className="hero-desc text-lg text-white mt-4">Nestled in the heart of Livermore Valley, Caldeira Estate offers a luxurious escape amongst the lush vineyard and olive groves. Immerse yourself in our enchanting landscapes and indulge in exclusive experiences. Discover more about our property and explore our range of products and services.</p>
                 </div>
-                <div className="mx-auto">
+                <div className="mx-auto lg:w-full">
                     <Availability />
                 </div>
             </div>
