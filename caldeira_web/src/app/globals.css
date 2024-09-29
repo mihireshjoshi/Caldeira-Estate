@@ -43,19 +43,12 @@
   background: none;
 }
 
-/* .avail-info {
-  width: "70%";
-  max-width: 600px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
-
-/* .avail-info {
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-} */
+.quote {
+  height: 576px;
+  justify-content: space-around;
+  padding: 6% 0%;
+  /* background-image: url('@/images/Flowers.png'); */
+}
 
 .avail-info {
   max-width: "80%";
