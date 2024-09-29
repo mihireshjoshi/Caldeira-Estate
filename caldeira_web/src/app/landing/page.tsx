@@ -1,3 +1,4 @@
+import Accomodation from "@/components/Accomodation";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Quote from "@/components/Quote";
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="main-box">
         <HeroSection />
         <Quote />
+        <Accomodation />
         <Footer />
       </div>
     </div>
