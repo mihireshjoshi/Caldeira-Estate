@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Boska';
+  src: url('/fonts/Boska-Light.otf') format('truetype');
+  /* font-weight: normal; */
+  font-style: serif;
+}
+
+.out {
+  background-color: rgb(255, 222, 181);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  max-width: 1440px;
+  width: "100%";
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-desc {
+  width: 50%;
+  min-width: 380px;
+}
+
+.main-box {
+  background-color: white;
+  max-width: 1440px;
+  width: "100%";
+  margin: auto;
+}
+
+.cal {
+  background: none;
+}
+
+/* .avail-info {
+  width: "70%";
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+/* .avail-info {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.avail-info {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column; /* For mobile-first */
+  gap: 16px; /* Ensure spacing between items */
+  flex-wrap: wrap;
+}
+
+@media (min-width: 640px) {
+  .avail-info {
+    flex-direction: row; /* For larger screens */
+    justify-content: space-between;
+  }
+}
+
+.inp {
+  background: none;
+}
+
+.date {
+  width: 400px
+}
