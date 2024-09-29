@@ -82,3 +82,21 @@
   flex-wrap: wrap;
   gap: 20px
 }
+
+.experience {
+  min-height: 820px;
+  justify-content: space-between;
+  /* padding: 6% 0%; */
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.products {
+  min-height: 880px;
+  justify-content: space-around;
+  padding: 6% 0%;
+  /* display: flex;
+  flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 20px
+}

@@ -15,7 +15,7 @@ export default function Accomodation() {
     const [header, setHeader] = useState<string>('Accomodation');
     const [content, setContent] = useState<string>("Located just one hour from San Francisco, Caldeira House is your ideal destination where luxury and tranquility converge. Whether you're planning a family reunion, a romantic getaway, or a corporate retreat, our dedicated team is committed to making your stay exceptional.");
     return (
-        <section className="accomodation flex flex-col" style={{backgroundImage: "url('/images/landing_c.png')"}}>
+        <section className="accomodation flex flex-col" style={{backgroundImage: "url('/images/landing_c.png')"}} data-aos="fade-up">
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
             </Head>
@@ -47,7 +47,7 @@ export default function Accomodation() {
                 />
             </div>
             <div className="mx-auto">
-                <button className="px-8 lg:px-32 py-2 bg-[#4E562A] rounded-md text-white text-sm" style={{ fontFamily: "'Manrope', sans-serif" }} data-aos="fade-up" data-aos-delay="100">Book a Stay and Design Your Experience</button>
+                <button className="px-8 lg:px-32 py-2 bg-[#4E562A] rounded-md text-white text-sm" style={{ fontFamily: "'Manrope', sans-serif" }} >Book a Stay and Design Your Experience</button>
             </div>
             <hr className="border-t-2 border-[#737E41] w-1/12 mx-auto" data-aos="fade-up" data-aos-delay="120"/>
         </section>
