@@ -100,3 +100,17 @@
   flex-wrap: wrap;
   gap: 20px
 }
+
+.story {
+  min-height: 565px;
+  justify-content: space-between;
+  /* padding: 6% 0%; */
+  flex-wrap: wrap;
+  gap: 20px;
+  background-size: cover;
+}
+
+.testimonials {
+  min-height: 500px;
+  background-size: cover;
+}
