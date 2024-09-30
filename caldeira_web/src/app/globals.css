@@ -10,7 +10,7 @@
 }
 
 .out {
-  background-color: rgb(255, 222, 181);
+  background-color: "#F2F6FF";
 }
 
 .container {
@@ -113,4 +113,17 @@
 .testimonials {
   min-height: 500px;
   background-size: cover;
+}
+
+.testimonial-box {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px -5px 10px rgba(0, 0, 0, 0.05); /* Adds shadows on all sides */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
