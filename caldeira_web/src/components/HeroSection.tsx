@@ -13,7 +13,7 @@ export default function HeroSection() {
                 // caldeira_web/src/images/landing_bg.png
                 style={{ backgroundImage: "url('/images/landing_bg.png')" }}
             >  
-                <div className="top-bar sm:mx-4 lg:mx-20 flex flex-row justify-between">
+                <div className="top-bar sm:mx-4 lg:mx-20 mx-5 flex flex-row justify-between">
                     <Image
                         src="/images/Caldeira_Estate.png"  // Path relative to the public folder
                         alt="Caldeira Estate"

@@ -68,7 +68,7 @@ export default function Testimonials() {
 
   return (
     <section
-      className="testimonials flex flex-col justify-around py-20"
+      className="testimonials flex flex-col justify-around py-20 mb-20"
       style={{ backgroundImage: "url('/images/Testimonials_bg.png')" }}
     >
       <div
