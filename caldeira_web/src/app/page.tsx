@@ -2,6 +2,7 @@ import Accomodation from "@/components/Accomodation";
 import Experience from "@/components/DYELanding";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import NewsLetter from "@/components/NewsLetter";
 import Products from "@/components/Products";
 import Quote from "@/components/Quote";
 import Story from "@/components/Story";
@@ -19,6 +20,7 @@ export default function Home() {
         <Products />
         <Story />
         <Testimonials />
+        <NewsLetter />
         <Footer />
       </div>
     </div>

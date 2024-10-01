@@ -81,7 +81,7 @@ export default function Availability() {
                 <div className="flex flex-col flex-grow sm:w-1/4 lg:max-w-40">
                     <p className="text-xs text-white/60">PROMO CODE</p>
                     <input 
-                        className="inp mt-3 border-b py-1 w-full"
+                        className="inp mt-3 border-b py-1 w-full focus:outline-none focus:ring-0"
                         value={promo}
                         onChange={handlePromoChange}
                     />
