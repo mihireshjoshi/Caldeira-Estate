@@ -1,7 +1,7 @@
 import Accomodation from "@/components/Accomodation";
 import Experience from "@/components/DYELanding";
 import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
+import LandingHero from "@/components/LandingHero";
 import NewsLetter from "@/components/NewsLetter";
 import Products from "@/components/Products";
 import Quote from "@/components/Quote";
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="out">
       <div className="main-box">
-        <HeroSection />
+        <LandingHero />
         <Quote />
         <Accomodation />
         <Experience />

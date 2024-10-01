@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Availability from "./Availability";
 
-export default function HeroSection() {
+export default function LandingHero() {
     return (
         <section>
             <Head>
