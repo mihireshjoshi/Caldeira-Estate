@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import NewsLetter from "@/components/NewsLetter";
 import Ocassion from "@/components/Ocassion";
 import OcassionHero from "@/components/OcassionsHero";
 import TailoredExperience from "@/components/TailoredExperience";
@@ -33,6 +34,7 @@ export default function Home() {
           <hr className="lg:border-t-2 border-t-1 border-[#737E41] w-[6%] mx-auto mb-10"/>
           <TailoredExperience />
           <Testimonials />
+          <NewsLetter />
           <Footer />
         </div>
       </div>
