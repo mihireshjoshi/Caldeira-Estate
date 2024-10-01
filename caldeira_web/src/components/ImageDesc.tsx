@@ -6,12 +6,16 @@ interface ImageDescProps {
     src: string;
     title: string;
     desc: string;
+    color: string;
 }
 import Image from "next/image";
 
-export default function ImageDesc ({ height, width, src, title, desc }: ImageDescProps) {
+export default function ImageDesc ({ height, width, src, title, desc, color }: ImageDescProps) {
+    const textWidth = (width - 20).toString();
+    
+
     return(
-        <section className="flex flex-col gap-10">
+        <section className="flex flex-col gap-4">
             <Image 
                 height={height}
                 width={width}
@@ -19,8 +23,8 @@ export default function ImageDesc ({ height, width, src, title, desc }: ImageDes
                 alt="img"
             />
             <div>
-                <p className="text-2xl font-thin text-[#737E41]" style={{ fontFamily: "'Manrope', sans-serif" }}>{title}</p>
-                <p className="w-72 text-base font-extralight">{desc}</p>
+                <p className={`text-2xl font-thin text-[${color}]`} style={{ fontFamily: "'Manrope', sans-serif" }}>{title}</p>
+                <p className={` text-base font-extralight`} style={{ width: `${textWidth}px` }}>{desc}</p>
             </div>
         </section>
     );

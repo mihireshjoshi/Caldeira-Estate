@@ -51,6 +51,8 @@
   height: 576px;
   justify-content: space-around;
   padding: 6% 0%;
+  background-size: cover;
+  background-position: center;
   /* background-image: url('@/images/Flowers.png'); */
 }
 

@@ -27,6 +27,7 @@ export default function Experience() {
                         src="/images/dye_a.png"
                         title="Wine Tour &  Tasting"
                         desc="Relish the nectar of the vine with a guided tour through our lush vineyard."
+                        color="#737E41"
                     />
                     <ImageDesc 
                         height={150}
@@ -34,6 +35,7 @@ export default function Experience() {
                         src="/images/dye_b.png"
                         title="Olive Grove Tour"
                         desc="Uncover the art of olive oil production amidst our scenic groves."
+                        color="#737E41"
                     />
                 </div>
                 <div className="w-full flex flex-row flex-wrap gap-10 justify-center lg:justify-start mt-10">
@@ -43,6 +45,7 @@ export default function Experience() {
                         src="/images/dye_c.png"
                         title="In-home Dining"
                         desc="Savor gourmet experiences crafted just for you in the comfort of our estate."
+                        color="#737E41"
                     />
                     <ImageDesc 
                         height={150}
@@ -50,6 +53,7 @@ export default function Experience() {
                         src="/images/dye_d.png"
                         title="Concierge Services"
                         desc="Allow us to curate your perfect luxury accommodation in the wine country."
+                        color="#737E41"
                     />
                 </div>
             </div>
