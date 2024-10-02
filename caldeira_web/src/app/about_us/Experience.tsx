@@ -7,7 +7,7 @@ import ImageDesc from "@/components/ImageDesc";
 
 export default function Experience() {
     // const [header, setHeader] = useState<string>(`Engaging Experiences Await`);
-    const header = "Engaging Experiences Await";
+    const header = "Engaging Experiences Await ";
     const content = "Caldeira Estate is more than just a destination; it is a canvas for unforgettable experiences. We invite you to immerse yourself in our world through exclusive wine tastings, artisanal olive oil tours, and hands-on experiences such as grape harvesting. Each of these experiences is designed to allow you to fully appreciate the rich bounty of our land. You can unwind and create unforgettable memories with family and friends, savoring the essence of countryside living.";
     // const [content, setContent] = useState<string>(`Caldeira Estate is more than just a destination; it is a canvas for unforgettable experiences. We invite you to immerse yourself in our world through exclusive wine tastings, artisanal olive oil tours, and hands-on experiences such as grape harvesting. Each of these experiences is designed to allow you to fully appreciate the rich bounty of our land. You can unwind and create unforgettable memories with family and friends, savoring the essence of countryside living.`);
     return (
