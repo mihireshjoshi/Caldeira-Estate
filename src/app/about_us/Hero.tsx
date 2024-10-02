@@ -13,7 +13,7 @@ export default function Hero() {
                 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
             </Head>
             <div
-                className="hero bg-cover bg-center h-screen mx-auto pt-8 pb-12 flex flex-col"
+                className="hero bg-cover bg-center min-h-screen mx-auto pt-8 pb-12 flex flex-col"
                 // caldeira_web/src/images/landing_bg.png
                 style={{ backgroundImage: "url('/images/about_us_bg.png')" }}
             >  
@@ -35,7 +35,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="container mx-auto flex flex-col flex-grow justify-center items-center text-center">
-                    <h2 style={{ fontFamily: "'Boska', serif", whiteSpace: 'pre-line' }} className="text-3xl w-[56%] font-extralight text-white">{header}</h2>
+                    <h2 style={{ fontFamily: "'Boska', serif", whiteSpace: 'pre-line' }} className="text-3xl lg:w-[56%] sm:w-[80%] font-extralight text-white">{header}</h2>
                 </div>
             </div>
         </section>
