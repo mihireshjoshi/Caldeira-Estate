@@ -2,12 +2,14 @@
 
 
 import ImageDesc from "@/components/ImageDesc";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 export default function Experience() {
-    const [header, setHeader] = useState<string>(`Engaging Experiences Await`);
-    const [content, setContent] = useState<string>(`Caldeira Estate is more than just a destination; it is a canvas for unforgettable experiences. We invite you to immerse yourself in our world through exclusive wine tastings, artisanal olive oil tours, and hands-on experiences such as grape harvesting. Each of these experiences is designed to allow you to fully appreciate the rich bounty of our land. You can unwind and create unforgettable memories with family and friends, savoring the essence of countryside living.`);
+    // const [header, setHeader] = useState<string>(`Engaging Experiences Await`);
+    const header = "Engaging Experiences Await";
+    const content = "Caldeira Estate is more than just a destination; it is a canvas for unforgettable experiences. We invite you to immerse yourself in our world through exclusive wine tastings, artisanal olive oil tours, and hands-on experiences such as grape harvesting. Each of these experiences is designed to allow you to fully appreciate the rich bounty of our land. You can unwind and create unforgettable memories with family and friends, savoring the essence of countryside living.";
+    // const [content, setContent] = useState<string>(`Caldeira Estate is more than just a destination; it is a canvas for unforgettable experiences. We invite you to immerse yourself in our world through exclusive wine tastings, artisanal olive oil tours, and hands-on experiences such as grape harvesting. Each of these experiences is designed to allow you to fully appreciate the rich bounty of our land. You can unwind and create unforgettable memories with family and friends, savoring the essence of countryside living.`);
     return (
         <section className="experience flex flex-row flex-wrap">
             <div className="w-full lg:w-[60%] bg-[#FDFBFB] flex flex-col py-40 px-16 gap-10 justify-between" style={{backgroundImage: "url('/images/experience_about.png')"}}>
