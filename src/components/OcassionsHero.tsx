@@ -16,7 +16,7 @@ export default function OcassionHero() {
                 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
             </Head>
             <div
-                className="hero bg-cover bg-center h-screen mx-auto pt-8 pb-12 flex flex-col"
+                className="hero bg-cover bg-center min-h-screen mx-auto pt-8 pb-12 flex flex-col"
                 // caldeira_web/src/images/landing_bg.png
                 style={{ backgroundImage: "url('/images/ocassions_bg.png')" }}
             >  

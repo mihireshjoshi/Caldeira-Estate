@@ -17,18 +17,18 @@ export default function Accomodation() {
     const header = 'Accomodation';
     const content = "Located just one hour from San Francisco, Caldeira House is your ideal destination where luxury and tranquility converge. Whether you're planning a family reunion, a romantic getaway, or a corporate retreat, our dedicated team is committed to making your stay exceptional.";
     return (
-        <section className="accomodation flex flex-col" style={{backgroundImage: "url('/images/landing_c.png')"}} data-aos="fade-up">
+        <section className="accomodation flex flex-col items-center" style={{backgroundImage: "url('/images/landing_c.png')"}} data-aos="fade-up">
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
             </Head>
             <div>
-                <p className="sm:w-1/2 lg:w-3/5 text-center mx-auto lg:text-8xl md:text-6xl sm:text-5xl text-4xl text-[#262717]" style={{ fontFamily: "'Boska', serif" }} data-aos="fade-up" data-aos-delay="100">{header}</p>
+                <p className=" text-center mx-auto lg:text-8xl md:text-6xl sm:text-5xl text-4xl text-[#262717]" style={{ fontFamily: "'Boska', serif" }} data-aos="fade-up" data-aos-delay="100">{header}</p>
             </div>
             <hr className="border-t-2 border-[#737E41] w-1/12 mx-auto" data-aos="fade-up" data-aos-delay="120"/>
             <div>
                 <p className="w-2/3 lg:w-3/5 text-center mx-auto text-base font-light text-black" style={{ fontFamily: "'Manrope', sans-serif" }} data-aos="fade-up" data-aos-delay="140">{content}</p>
             </div>
-            <div className="flex flex-row flex-wrap  mx-auto sm:w-1/2 lg:w-11/12 justify-around gap-4" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex flex-row flex-wrap  mx-auto sm:w-1/2 lg:w-11/12 w-11/12 justify-around gap-4" data-aos="fade-up" data-aos-delay="200">
                 <Image 
                     height={250}
                     width={406}

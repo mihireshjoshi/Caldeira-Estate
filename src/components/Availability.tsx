@@ -38,36 +38,39 @@ export default function Availability() {
             <div className="avail-info mx-auto p-4 sm:flex-row sm:justify-around lg:justify-evenly lg:items-end sm:items-end">
                 
                 {/* Date Picker Section */}
-                <div className="flex flex-row justify-between items-end border-b">
-                    <div className="flex flex-col">
-                        <p className="text-xs text-white/60">CHECK IN</p>
+                <div className="flex flex-col gap-5 lg:flex-row lg:flex-wrap items-end lg:w-auto md:w-auto sm:w-full w-full">
+                    <div className="flex flex-col w-full lg:w-auto">
+                        <p className="text-xs text-white/60 text-left">CHECK IN</p>
                         <DatePicker
-                            selected={startDate}
-                            onChange={handleStartDateChange}
-                            placeholderText="Start Date"
-                            className="cal p-2 text-lg w-44"
-                            dateFormat="dd MMMM yyyy"
+                        selected={startDate}
+                        onChange={handleStartDateChange}
+                        placeholderText="Start Date"
+                        className="cal p-2 text-lg w-full lg:w-44 border-b"
+                        dateFormat="dd MMMM yyyy"
                         />
                     </div>
-                    <div>
-                        <Image 
-                            src="/images/arrow-right.png" 
-                            alt="arrow"
-                            width={24} height={24}
-                            className="mx-2 mb-2"
+                    <div className="hidden lg:block">
+                        <Image
+                        src="/images/arrow-right.png"
+                        alt="arrow"
+                        width={24} height={24}
+                        className="mx-2 mb-2"
                         />
                     </div>
-                    <div className="flex flex-col">
-                        <p className="text-xs text-white/60 text-right">CHECK OUT</p>
+                    <div className="flex flex-col w-full lg:w-auto">
+                        <p className="text-xs text-white/60 text-left lg:text-right">CHECK OUT</p>
                         <DatePicker
-                            selected={endDate}
-                            onChange={handleEndDateChange}
-                            placeholderText="End Date"
-                            className="cal p-2 text-lg w-44 text-right"
-                            dateFormat="dd MMMM yyyy"
+                        selected={endDate}
+                        onChange={handleEndDateChange}
+                        placeholderText="End Date"
+                        className="cal p-2 text-lg w-full lg:w-44 text-left lg:text-right border-b"
+                        dateFormat="dd MMMM yyyy"
                         />
                     </div>
                 </div>
+
+
+
 
                 {/* Accommodation Section */}
                 <div className="flex flex-col flex-grow sm:w-1/4 border-b max-w-52">
