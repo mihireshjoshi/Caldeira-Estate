@@ -1,12 +1,14 @@
 "use client";
 
 
-import { useState } from "react";
+// import { useState } from "react";
 import ImageDesc from "./ImageDesc";
 
 export default function Experience() {
-    const [header, setHeader] = useState<string>(`Design Your \nExperience`);
-    const [content, setContent] = useState<string>(`Our estate offers an idyllic sanctuary where guests can immerse themselves in the stunning landscapes, savor unique experiences such as personalized wine tastings and intimate olive oil tours, and partake in seasonal activities that celebrate nature's beauty year-round. We're dedicated to creating memorable gatherings for all, inviting you to unwind, explore, and craft lasting memories.`);
+    // const [header, setHeader] = useState<string>(`Design Your \nExperience`);
+    // const [content, setContent] = useState<string>(`Our estate offers an idyllic sanctuary where guests can immerse themselves in the stunning landscapes, savor unique experiences such as personalized wine tastings and intimate olive oil tours, and partake in seasonal activities that celebrate nature's beauty year-round. We're dedicated to creating memorable gatherings for all, inviting you to unwind, explore, and craft lasting memories.`);
+    const header = `Design Your \nExperience`;
+    const content = `Our estate offers an idyllic sanctuary where guests can immerse themselves in the stunning landscapes, savor unique experiences such as personalized wine tastings and intimate olive oil tours, and partake in seasonal activities that celebrate nature's beauty year-round. We're dedicated to creating memorable gatherings for all, inviting you to unwind, explore, and craft lasting memories.`;
     return (
         <section className="experience flex flex-row flex-wrap">
             <div className="w-full lg:w-5/12 bg-[#F9FAF7] flex flex-col py-16 px-16 gap-10 justify-between">

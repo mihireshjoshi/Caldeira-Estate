@@ -5,11 +5,13 @@ import { useState } from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Story() {
+    // const [header, setHeader] = useState<string>('The Story');
+    // const [subHeader, setSubHeader] = useState<string>('Meet the Heart of Caldeira Estate');
+    // const [content, setContent] = useState<string>(`With a passion for sustainable farming and organic living, the Caldeira team has dedicated itself to cultivating a place where guests can celebrate nature in its alluring glory. Comprised of experienced service professionals, each member of our team is committed to ensuring every visit is a memorable celebration of life, nature, and the art of fine living. \n\nAt Caldeira Estate, we believe that every guest is part of our story, and we are excited to welcome you to our community—a place where every moment is crafted to create lasting memories that linger in your heart. \n\nWe welcome you to explore what makes us unique. Come, be part of our story.`);
 
-    const [header, setHeader] = useState<string>('The Story');
-    const [subHeader, setSubHeader] = useState<string>('Meet the Heart of Caldeira Estate');
-    const [content, setContent] = useState<string>(`With a passion for sustainable farming and organic living, the Caldeira team has dedicated itself to cultivating a place where guests can celebrate nature in its alluring glory. Comprised of experienced service professionals, each member of our team is committed to ensuring every visit is a memorable celebration of life, nature, and the art of fine living. \n\nAt Caldeira Estate, we believe that every guest is part of our story, and we are excited to welcome you to our community—a place where every moment is crafted to create lasting memories that linger in your heart. \n\nWe welcome you to explore what makes us unique. Come, be part of our story.
-`);
+    const header = 'The Story';
+    const subHeader = 'Meet the Heart of Caldeira Estate';
+    const content= `With a passion for sustainable farming and organic living, the Caldeira team has dedicated itself to cultivating a place where guests can celebrate nature in its alluring glory. Comprised of experienced service professionals, each member of our team is committed to ensuring every visit is a memorable celebration of life, nature, and the art of fine living. \n\nAt Caldeira Estate, we believe that every guest is part of our story, and we are excited to welcome you to our community—a place where every moment is crafted to create lasting memories that linger in your heart. \n\nWe welcome you to explore what makes us unique. Come, be part of our story.`;
 
 
     return (

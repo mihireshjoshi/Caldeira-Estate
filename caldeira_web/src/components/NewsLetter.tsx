@@ -4,7 +4,8 @@ import { useState } from "react";
 import Head from "next/head";
 
 export default function NewsLetter() {
-    const [header, setHeader] = useState<string>('Be the first to know about exclusive offers, community gatherings, and more. Sign up now to stay connected.');
+    // const [header, setHeader] = useState<string>('Be the first to know about exclusive offers, community gatherings, and more. Sign up now to stay connected.');
+    const header = 'Be the first to know about exclusive offers, community gatherings, and more. Sign up now to stay connected.';
     return (
         <section className="newsletter my-10 flex items-center" style={{backgroundImage: "url('/images/newsletter_bg.png')"}}>
             <Head>

@@ -1,12 +1,15 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Image from "next/image";
 
 export default function TailoredExperience() {
-    const [header, setHeader] = useState<string>(`Tailored Experiences`);
-    const [subtitle, setSubTitle] = useState<string>(`Your Vision, Our Expertise`);
-    const [content, setContent] = useState<string>(`No two gatherings are the same, and at Caldeira Estate, we celebrate this uniqueness. We offer customized packages for private gatherings that are pre-arranged with our Host. Our dedicated team is ready to discuss your specific requirements and tailor an experience that suits your vision.`);
+    // const [header, setHeader] = useState<string>(`Tailored Experiences`);
+    // const [subtitle, setSubTitle] = useState<string>(`Your Vision, Our Expertise`);
+    // const [content, setContent] = useState<string>(`No two gatherings are the same, and at Caldeira Estate, we celebrate this uniqueness. We offer customized packages for private gatherings that are pre-arranged with our Host. Our dedicated team is ready to discuss your specific requirements and tailor an experience that suits your vision.`);
+    const header=`Tailored Experiences`;
+    const subtitle=`Your Vision, Our Expertise`;
+    const content=`No two gatherings are the same, and at Caldeira Estate, we celebrate this uniqueness. We offer customized packages for private gatherings that are pre-arranged with our Host. Our dedicated team is ready to discuss your specific requirements and tailor an experience that suits your vision.`;
     return (
         <section className="experience flex flex-row flex-wrap">
             <div className="w-full lg:w-[60%] bg-[#FEFDFB] flex flex-col py-16 pl-16 gap-10 justify-around " >

@@ -1,7 +1,7 @@
 "use client";
 
-import Link from 'next/link';
-import Image from "next/image";
+// import Link from 'next/link';
+// import Image from "next/image";
 import { FaRegCreditCard } from 'react-icons/fa';  // Font Awesome card icon
 import { HiDotsCircleHorizontal } from 'react-icons/hi';  // Heroicons menu dots
 

@@ -2,12 +2,14 @@
 
 import Head from 'next/head';
 import Image from 'next/image';
-import Availability from "./Availability";
-import { useState } from 'react';
+// import Availability from "./Availability";
+// import { useState } from 'react';
 
 export default function OcassionHero() {
-    const [header, setHeader] = useState<string>('Special Occasions at Caldeira Estate');
-    const [content, setContent] = useState<string>('Welcome to Caldeira Estate, where moments turn into cherished memories amidst the serene beauty of nature’s harmony. Nestled in the heart of wine country yet conveniently located just an hour from San Francisco, our estate is the perfect escape for both corporate and private gatherings.');
+    // const [header, setHeader] = useState<string>('Special Occasions at Caldeira Estate');
+    // const [content, setContent] = useState<string>('Welcome to Caldeira Estate, where moments turn into cherished memories amidst the serene beauty of nature’s harmony. Nestled in the heart of wine country yet conveniently located just an hour from San Francisco, our estate is the perfect escape for both corporate and private gatherings.');
+    const header = 'Special Occasions at Caldeira Estate';
+    const content = 'Welcome to Caldeira Estate, where moments turn into cherished memories amidst the serene beauty of nature’s harmony. Nestled in the heart of wine country yet conveniently located just an hour from San Francisco, our estate is the perfect escape for both corporate and private gatherings.';
     return (
         <section>
             <Head>

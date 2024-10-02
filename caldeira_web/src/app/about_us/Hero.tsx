@@ -5,7 +5,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Hero() {
-    const [header, setHeader] = useState<string>(`Welcome to Caldeira Estate, where passion for nature and luxury intertwine to create an unforgettable experience in the heart of Livermore Valley, California. \nNestled amidst breathtaking vineyards and lush olive gardens, our estate is not just a destination; it's a sanctuary where luxury and nature coexist in perfect harmony.`);
+    const header = `Welcome to Caldeira Estate, where passion for nature and luxury intertwine to create an unforgettable experience in the heart of Livermore Valley, California. \nNestled amidst breathtaking vineyards and lush olive gardens, our estate is not just a destination; it's a sanctuary where luxury and nature coexist in perfect harmony.`;
+    // const [header, setHeader] = useState<string>(`Welcome to Caldeira Estate, where passion for nature and luxury intertwine to create an unforgettable experience in the heart of Livermore Valley, California. \nNestled amidst breathtaking vineyards and lush olive gardens, our estate is not just a destination; it's a sanctuary where luxury and nature coexist in perfect harmony.`);
     return (
         <section>
             <Head>

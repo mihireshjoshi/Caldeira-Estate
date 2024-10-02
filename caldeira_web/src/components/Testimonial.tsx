@@ -6,7 +6,8 @@ import { useState, useRef, useEffect } from "react";
 export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(0);
   const reviewContainerRef = useRef<HTMLDivElement | null>(null);
-  const [header, setHeader] = useState<string>("They love us");
+  // const [header, setHeader] = useState<string>("They love us");
+  const header = "They love us";
   const reviews = [
     {
       name: "Winton Santiago",

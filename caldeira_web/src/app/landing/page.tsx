@@ -7,7 +7,7 @@ import Products from "@/components/Products";
 import Quote from "@/components/Quote";
 import Story from "@/components/Story";
 import Testimonials from "@/components/Testimonial";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (

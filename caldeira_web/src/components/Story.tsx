@@ -2,14 +2,17 @@
 
 
 import Image from 'next/image';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Story() {
 
-    const [header, setHeader] = useState<string>('The Story');
-    const [subHeader, setSubHeader] = useState<string>('When, why and how...');
-    const [content, setContent] = useState<string>('With ties to both Livermore Valley and the San Francisco Bay Area, Caldeira Estate exemplifies artisanal excellence and environmental stewardship. Our story is rooted in a passion for nature with a blend of heritage and modern luxury. Join us and explore the inspiring journey that defines our exceptional vineyard and olive grove.');
+    // const [header, setHeader] = useState<string>('The Story');
+    // const [subHeader, setSubHeader] = useState<string>('When, why and how...');
+    // const [content, setContent] = useState<string>('With ties to both Livermore Valley and the San Francisco Bay Area, Caldeira Estate exemplifies artisanal excellence and environmental stewardship. Our story is rooted in a passion for nature with a blend of heritage and modern luxury. Join us and explore the inspiring journey that defines our exceptional vineyard and olive grove.');
+    const header = 'The Story';
+    const subHeader = 'When, why and how...';
+    const content = 'With ties to both Livermore Valley and the San Francisco Bay Area, Caldeira Estate exemplifies artisanal excellence and environmental stewardship. Our story is rooted in a passion for nature with a blend of heritage and modern luxury. Join us and explore the inspiring journey that defines our exceptional vineyard and olive grove.';
 
 
     return (

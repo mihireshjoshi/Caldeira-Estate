@@ -1,12 +1,14 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Head from "next/head";
 
 export default function Quote() {
 
-  const [header, setHeader] = useState<string>('An exclusive retreat nestled in the heart of Livermore wine country located on the outskirts of the Bay Area.');
-  const [content, setContent] = useState<string>("Step into a world where nature's bounty meets refined elegance in the form of a private vineyard, an immaculate olive grove, and a legacy of private celebrations.");
+  // const [header, setHeader] = useState<string>('An exclusive retreat nestled in the heart of Livermore wine country located on the outskirts of the Bay Area.');
+  // const [content, setContent] = useState<string>("Step into a world where nature's bounty meets refined elegance in the form of a private vineyard, an immaculate olive grove, and a legacy of private celebrations.");
+  const header = 'An exclusive retreat nestled in the heart of Livermore wine country located on the outskirts of the Bay Area.';
+  const content = "Step into a world where nature's bounty meets refined elegance in the form of a private vineyard, an immaculate olive grove, and a legacy of private celebrations.";
 
     return (
       <section className="quote flex flex-col" style={{backgroundImage: "url('/images/Flowers.png')"}}>

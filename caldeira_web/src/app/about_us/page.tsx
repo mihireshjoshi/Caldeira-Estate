@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonial";
 import Hero from "./Hero";
 import Quote from "./Quote";
-import Grid from "@/components/Grid";
+// import Grid from "@/components/Grid";
 import GridTop from "./GridTop";
 import Story from "./Story";
 import Experience from "./Experience";

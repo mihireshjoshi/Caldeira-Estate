@@ -1,10 +1,12 @@
 import Grid from "@/components/Grid";
-import { useState } from "react";
+// import { useState } from "react";
 import Head from "next/head";
 
 export default function GridTop() {
-    const [header, setHeader] = useState<string>('Colorful Celebrations in Every Season');
-    const [content, setContent] = useState<string>(`Throughout the year, Caldeira Estate transforms with the seasons, each bringing its own unique palette of colors and experiences. In the spring, our vineyards are alive with the tender green of new growth, while the olive gardens burst into bloom with delicate white flowers. The summer sun bathes the estate in golden hues, perfect for leisurely days spent exploring our lush landscapes. Autumn brings a vibrant tapestry of red and gold as the grapevines and olive trees prepare for harvest. \nEach season at Caldeira Estate offers a new chapter, inviting guests to immerse themselves in the ever-changing beauty of our surroundings.`);
+    const header = `Colorful Celebrations in Every Season`;
+    const content = `Throughout the year, Caldeira Estate transforms with the seasons, each bringing its own unique palette of colors and experiences. In the spring, our vineyards are alive with the tender green of new growth, while the olive gardens burst into bloom with delicate white flowers. The summer sun bathes the estate in golden hues, perfect for leisurely days spent exploring our lush landscapes. Autumn brings a vibrant tapestry of red and gold as the grapevines and olive trees prepare for harvest. \nEach season at Caldeira Estate offers a new chapter, inviting guests to immerse themselves in the ever-changing beauty of our surroundings.`;
+    // const [header, setHeader] = useState<string>('Colorful Celebrations in Every Season');
+    // const [content, setContent] = useState<string>(`Throughout the year, Caldeira Estate transforms with the seasons, each bringing its own unique palette of colors and experiences. In the spring, our vineyards are alive with the tender green of new growth, while the olive gardens burst into bloom with delicate white flowers. The summer sun bathes the estate in golden hues, perfect for leisurely days spent exploring our lush landscapes. Autumn brings a vibrant tapestry of red and gold as the grapevines and olive trees prepare for harvest. \nEach season at Caldeira Estate offers a new chapter, inviting guests to immerse themselves in the ever-changing beauty of our surroundings.`);
     return (
         <section className="flex flex-col items-center my-20">
             <Head>

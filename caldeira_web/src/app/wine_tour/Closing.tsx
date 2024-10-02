@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Closing() {
-    const [main, setMain] = useState<string>(`Ready to embark on a wine adventure? Booking your Wine Tour at Caldeira Estate is simple and seamless. Whether you're staying with us or planning a day trip, our dedicated team is here to ensure you experience the true essence of Livermore Valley's wine heritage. Send us an email at ** alissa@staytrivalley.com ** to set it up.\n\nOr you can Contact Us using our form`)
+    // const [main, setMain] = useState<string>(`Ready to embark on a wine adventure? Booking your Wine Tour at Caldeira Estate is simple and seamless. Whether you're staying with us or planning a day trip, our dedicated team is here to ensure you experience the true essence of Livermore Valley's wine heritage. Send us an email at ** alissa@staytrivalley.com ** to set it up.\n\nOr you can Contact Us using our form`)
+    const main = `Ready to embark on a wine adventure? Booking your Wine Tour at Caldeira Estate is simple and seamless. Whether you're staying with us or planning a day trip, our dedicated team is here to ensure you experience the true essence of Livermore Valley's wine heritage. Send us an email at ** alissa@staytrivalley.com ** to set it up.\n\nOr you can Contact Us using our form`;
     return (
         <section className="min-h-[852px] flex flex-col justify-evenly ">
             <div className="flex flex-col items-center gap-6">

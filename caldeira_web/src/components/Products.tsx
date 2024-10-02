@@ -1,12 +1,13 @@
 "use client";
 
 import Head from 'next/head';
-import Image from 'next/image';
-import { useState } from 'react';
+// import Image from 'next/image';
+// import { useState } from 'react';
 import ProductBox from './ProductBox';
 
 export default function Products() {
-    const [header, setHead] = useState<string>('Our Products');
+    // const [header, setHead] = useState<string>('Our Products');
+    const header = 'Our Products';
     return (
         <section className="products flex flex-col" style={{backgroundImage: "url('/images/Products_bg.png')"}} data-aos="fade-up">
             <Head>

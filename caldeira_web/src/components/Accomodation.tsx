@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,8 +12,10 @@ export default function Accomodation() {
         AOS.init({ duration: 1000 });
     }, []);
 
-    const [header, setHeader] = useState<string>('Accomodation');
-    const [content, setContent] = useState<string>("Located just one hour from San Francisco, Caldeira House is your ideal destination where luxury and tranquility converge. Whether you're planning a family reunion, a romantic getaway, or a corporate retreat, our dedicated team is committed to making your stay exceptional.");
+    // const [header, setHeader] = useState<string>('Accomodation');
+    // const [content, setContent] = useState<string>("Located just one hour from San Francisco, Caldeira House is your ideal destination where luxury and tranquility converge. Whether you're planning a family reunion, a romantic getaway, or a corporate retreat, our dedicated team is committed to making your stay exceptional.");
+    const header = 'Accomodation';
+    const content = "Located just one hour from San Francisco, Caldeira House is your ideal destination where luxury and tranquility converge. Whether you're planning a family reunion, a romantic getaway, or a corporate retreat, our dedicated team is committed to making your stay exceptional.";
     return (
         <section className="accomodation flex flex-col" style={{backgroundImage: "url('/images/landing_c.png')"}} data-aos="fade-up">
             <Head>
