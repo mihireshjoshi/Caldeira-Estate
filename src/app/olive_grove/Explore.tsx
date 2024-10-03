@@ -23,7 +23,7 @@ export default function Explore() {
                     <div className="lg:w-1/2 min-w-[320px] flex flex-col items-center justify-center">
                         <div className="flex flex-col items-start justify-evenly lg:w-[60%] md:w-[60%] w-[80%] h-full lg:gap-0 md:gap-0 gap-2">
                             <div className="flex flex-col lg:gap-16 md:gap-12 gap-6">
-                                <hr className={`lg:border-t-2 border-t-1 border-[#737E41] lg:w-[20%] md:w-[25%] w-[30%] sm:hidden`}/>
+                                <hr className={`lg:border-t-2 border-t-1 border-[#737E41] lg:w-[20%] md:w-[25%] w-[30%]`}/>
                                 <p className="font-extralight lg:text-xl md:text-xl text-base" style={{fontFamily: "'Manrope', sans-serif", whiteSpace: "pre-line"}}>{leftContent}</p>
                             </div>
                             <button className={`px-10 py-3 lg:w-fit md:w-fit w-full rounded-md text-white bg-[#737E41]`}>{button}</button>
