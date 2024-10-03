@@ -26,6 +26,7 @@ export default function WineTour() {
                 />
                 <RightImage 
                     title={`Wine Tour of \nLocal Wineries`}
+                    subTitle=""
                     content="To truly capture the spirit of Livermore Valley, Caldeira Estate has partnered with several distinguished local wineries. Our collaborative Wine Tasting Tour offers guests a unique chance to sample a diverse array of wines from the region's top producers. This indulgent experience showcases the area's renowned wine culture and highlights the rich tapestry of flavors that define Livermore Valley."
                     button="Book Now"
                     color="#AC2024"
