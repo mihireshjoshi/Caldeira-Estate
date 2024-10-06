@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-export default function Availability() {
+export default function Booking() {
     const [startDate, setStartDate] = useState<Date | null>(null);
     const [endDate, setEndDate] = useState<Date | null>(null);
     const [promo, setPromo] = useState<string>('');
@@ -35,51 +35,56 @@ export default function Availability() {
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
             </Head>
-            <div className="avail-info mx-auto p-4 sm:flex-row sm:justify-around lg:justify-evenly lg:items-end sm:items-end">
+            <div className="p-5 lg:min-w-[380px] min-w-[340px] flex flex-col items-start gap-12 bg-[#FEFAF8] border border-[#F8DACE] rounded-md">
                 
+                <div className="flex flex-row items-end gap-2">
+                    <p className="font-normal text-[32px] text-[#DF5B26]" style={{ fontFamily: "'Manrope', sans-serif" }}>$5000</p>
+                    <p className="font-light text-[14px] text-[#DF5B26] pb-2" style={{ fontFamily: "'Manrope', sans-serif" }}>night</p>
+                </div>
+
                 {/* Date Picker Section */}
-                <div className="flex flex-col gap-5 lg:flex-row lg:flex-wrap items-end lg:w-auto md:w-auto sm:w-full w-full">
+                <div className="flex gap-5 flex-row border-b border-black items-end lg:w-auto w-full">
                     <div className="flex flex-col w-full lg:w-auto">
-                        <p className="text-xs text-white/60 text-left">CHECK IN</p>
+                        <p className="text-xs text-[#666463] text-left">CHECK IN</p>
                         <DatePicker
                         selected={startDate}
                         onChange={handleStartDateChange}
                         placeholderText="Start Date"
-                        className="cal p-2 text-lg w-full lg:w-44 border-b"
+                        className="cal p-2 lg:text-lg md:text-lg text-[12px] w-full lg:w-44 md:w-40"
                         dateFormat="dd MMMM yyyy"
                         />
                     </div>
-                    <div className="hidden lg:block">
+                    <div className="lg:block">
                         <Image
-                        src="/images/arrow-right.png"
+                        src="/images/arrow-right_black.png"
                         alt="arrow"
                         width={24} height={24}
                         className="mx-2 mb-2"
                         />
                     </div>
                     <div className="flex flex-col w-full lg:w-auto">
-                        <p className="text-xs text-white/60 text-left lg:text-right">CHECK OUT</p>
+                        <p className="text-xs text-[#666463] text-left lg:text-right">CHECK OUT</p>
                         <DatePicker
                         selected={endDate}
                         onChange={handleEndDateChange}
                         placeholderText="End Date"
-                        className="cal p-2 text-lg w-full lg:w-44 text-left lg:text-right border-b"
+                        className="cal p-2 lg:text-lg md:text-lg text-[12px] w-full lg:w-44 md:w-40 text-left lg:text-right "
                         dateFormat="dd MMMM yyyy"
                         />
                     </div>
                 </div>
 
                 {/* Accommodation Section */}
-                <div className="flex flex-col flex-grow w-[100%] border-b lg:max-w-52 md:max-w-52">
-                    <p className="text-xs text-white/60">ACCOMMODATION</p>
+                <div className="flex flex-col flex-grow w-[100%] border-b border-black">
+                    <p className="text-xs text-[#666463]">ACCOMMODATION</p>
                     <select className="inp py-1 mt-3 w-full">
                         <option>1</option>
                     </select>
                 </div>
 
                 {/* Promo Code Section */}
-                <div className="flex flex-col flex-grow sm:w-1/4 lg:max-w-52">
-                    <p className="text-xs text-white/60">PROMO CODE</p>
+                <div className="flex flex-col flex-grow w-[100%] border-b border-black">
+                    <p className="text-xs text-[#666463]">PROMO CODE</p>
                     <input 
                         className="inp mt-3 border-b py-1 w-full focus:outline-none focus:ring-0"
                         value={promo}
@@ -88,7 +93,7 @@ export default function Availability() {
                 </div>  
 
                 {/* Check Availaibility Button */}
-                <button className="px-12 py-2 border w-[100%] rounded-md lg:max-w-[240px] md:max-w-[240px]">Check Availaibility</button>
+                <button className="px-12 py-2 text-white w-[100%] rounded-md bg-[#DF5B26]">Check Availaibility</button>
             </div>
         </section>
     );
