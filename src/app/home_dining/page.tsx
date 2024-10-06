@@ -12,7 +12,7 @@ import Quote from "./Quote";
 export default function HomeDining() {
     return (
         <div className="out">
-            <div className="main-box">
+            <div className="main-box pt-8">
                 <Header />
                 <TopContent />
                 <Title />
